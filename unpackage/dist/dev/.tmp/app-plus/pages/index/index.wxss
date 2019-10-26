@@ -1,0 +1,229 @@
+
+page {
+		height: auto;
+		min-height: 100%;
+}
+.jzhometopBoxHe {
+		position: relative;
+}
+.jzhometopBox {
+		padding:15rpx;
+}
+.bannImg {
+		height:350rpx;
+		width: 100%;
+		border-radius:4rpx;		
+		overflow: hidden;
+}
+.jzhometinputBox {
+		position: absolute;
+		top:10%;
+		left: 6%;
+		width: 88%;
+		height: 70rpx;
+		background: rgba(0,0,0,0.6);
+		z-index: 100;
+		border-radius: 35rpx;
+}
+.jzhometinpHe {
+		padding: 0rpx 30rpx;
+}
+.jzhomedzhi {
+		line-height: 70rpx;
+		font-size: 30rpx;
+		color: #ffffff;
+}
+.jzhomezxan {
+		line-height: 70rpx;
+}
+.jzhomessBox {
+		height: 30rpx;
+		margin: 20rpx;
+		border-left:2rpx solid rgba(255,255,255,0.6);
+		padding-left: 40rpx;
+}
+.jzhomessimg image {
+		width: 36rpx;
+		height: 36rpx;
+}
+.jzhomessimg {
+		padding-right: 20rpx;
+}
+.jzhomesstx {
+		line-height: 30rpx;
+		font-size: 22rpx;
+		color: rgba(255,255,255,0.6);
+}
+.jzhomNavBox {
+		width: 25%;
+		float: left;
+		text-align: center;
+		padding: 10rpx 0rpx;
+}
+.jzhomNavimg {
+		overflow: hidden;
+		height: 80rpx;
+}
+.jzhomNavimg image {
+		height: 80rpx;
+		width: 80rpx;
+}
+.jzhomNavtx {
+		color: #333333;
+		font-size: 26rpx;
+}
+.jzhomNavBoxHe {
+		padding: 10rpx 0rpx;
+		margin: 0rpx 15rpx;
+		-webkit-box-shadow: 0px 1px 6rpx #eeeeee;
+		        box-shadow: 0px 1px 6rpx #eeeeee;
+}
+.jzhotleBox {
+		padding:30rpx 15rpx;
+}
+.jzhotlehx {
+		height: 30rpx;
+		width: 10rpx;
+		background: #B91B12;
+		margin-right: 15rpx;
+}
+.jzhotletxx {
+		line-height: 30rpx;
+		font-size: 30rpx;
+		font-weight: bold;
+}
+.jzhotlejjr {
+		line-height: 30rpx;
+		font-size: 28rpx;
+}
+.jzscrmczListHe {
+		white-space:nowrap;
+}
+.jzscrmczList {
+		width: 210rpx;
+		height:300rpx;
+		overflow: hidden;
+		margin: 0rpx 10rpx;
+		display: inline-block;
+		position: relative;
+}
+.jzscrmczList image {
+		width: 100%;
+		height: 100%;
+}
+.jzscrmczTx {
+		position: absolute;
+		z-index: 20;
+		left: 0px;
+		bottom:0px;
+		width: 100%;
+		padding: 10rpx;
+		background: rgba(0,0,0,0.5);
+		line-height: 30rpx;
+		font-size: 20rpx;
+		color: #ffffff;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+}
+.jzgdggBox {
+		padding-left:30rpx;
+		background: #F3F3F3;
+		color: #7A7A7A;
+}
+.jzhotletggui {
+		line-height: 30rpx;
+		font-size: 20rpx;
+		color: #999999;
+}
+.jzhochptBox {
+		padding: 10rpx;
+}
+.jzhochptlist {
+		width:50%;
+		float: left;
+}
+.jzhochptlihe {
+		padding: 10rpx;
+}
+.jzhochptliziz {
+		background: #F3F3F3;
+		border-radius: 4rpx;
+}
+.jzhochptmic {
+		padding: 15rpx 15rpx 0rpx 15rpx;
+		text-align: center;
+		color: #555555;
+		font-size: 30rpx;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+}
+.jzhochptmshu {
+		text-align: center;
+		color: #999999;
+		padding: 0rpx 15rpx 10rpx 15rpx;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		font-size: 22rpx;
+}
+.jzhochptimg {
+		width: 100%;
+		height: 220rpx;
+		overflow: hidden;
+}
+.jzhochptimg image {
+		width: 100%;
+		height: 100%;
+}
+.jzhochpdizhi {
+		padding: 6rpx 0rpx;
+}
+.jzhochpdizhi image {
+		height: 30rpx;
+		width: 30rpx;
+		margin-right: 10px;
+}
+.jzhochpdizhitx {
+		color: #999999;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		font-size: 22rpx;
+		line-height: 30rpx;
+}
+.jzhochpdizhihe {
+		padding: 15rpx;
+}
+.jzhoertleBox {
+		padding:30rpx 15rpx 10rpx 15rpx;
+}
+.jinjrBox {
+		padding: 15rpx;
+		display: inline-block;
+}
+.jinjrimg {
+		width: 120rpx;
+		height: 120rpx;
+		overflow: hidden;
+}
+.jinjrimg image {
+		height: 100%;
+		width: 100%;
+}
+.jinjrtxt {
+		font-size: 22rpx;
+		width: 120rpx;
+		text-align: center;
+		color: #999999;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+}
+

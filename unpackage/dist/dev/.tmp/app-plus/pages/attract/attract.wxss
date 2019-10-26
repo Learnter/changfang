@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-02818373,
+.content.data-v-02818373 {
+  width: 100%;
+  height: 100%;
+  background: #FAFAFA;
+  overflow-y: scroll;
+}
+.imgBox.data-v-02818373 {
+  height: 268rpx;
+  margin: 10rpx 20rpx 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.pbTitle.data-v-02818373 {
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 44rpx;
+  padding-left: 30rpx;
+  position: relative;
+}
+.pbTitle.data-v-02818373::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10rpx;
+    height: 40rpx;
+    background: #FF0018;
+    border-top-right-radius: 10rpx;
+    border-bottom-right-radius: 10rpx;
+}
+/*加盟流程样式*/
+.pathBox.data-v-02818373 {
+  padding: 20rpx;
+  background: #FFFFFF;
+  margin-bottom: 10rpx;
+}
+.pathBox .flowChart.data-v-02818373 {
+    margin: 30rpx 0 40rpx 0;
+    height: 200rpx;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+/*加盟流程样式*/
+/*加盟内容样式*/
+.main.data-v-02818373 {
+  padding: 0rpx 20rpx 20rpx;
+  background: #FFFFFF;
+}
+.main .introduce.data-v-02818373 {
+    padding: 20rpx 0;
+}
+.main .introduce .introImg.data-v-02818373 {
+      width: 250rpx;
+      height: 200rpx;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      border-radius: 10rpx;
+      overflow: hidden;
+}
+.main .introduce .introWord.data-v-02818373 {
+      padding: 10rpx 20rpx 10rpx 20rpx;
+      overflow: hidden;
+}
+.main .introduce .introWord .introTitle.data-v-02818373 {
+        font-size: 30rpx;
+        font-weight: bold;
+        line-height: 40rpx;
+}
+.main .introduce .introWord .introText.data-v-02818373 {
+        font-size: 28rpx;
+        line-height: 30rpx;
+        color: #999999;
+}
+.main .condition.data-v-02818373 {
+    padding: 0 20rpx;
+    height: 60rpx;
+    background: #FFFAFA;
+    margin-top: 16rpx;
+    border-radius: 10rpx;
+}
+.main .condition .bedge.data-v-02818373 {
+      width: 32rpx;
+      height: 32rpx;
+      font-size: 24rpx;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 32rpx;
+      background: #FF6A6A;
+      border-radius: 50%;
+}
+.main .advantagebg.data-v-02818373 {
+    margin-top: 20rpx;
+    height: 150rpx;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+.main .advantageItem.data-v-02818373 {
+    margin-top: 20rpx;
+    height: 160rpx;
+    overflow: hidden;
+}
+.main .advantageItem.data-v-02818373:nth-child(1n) {
+      background: -webkit-gradient(linear, left top, right top, from(#FFF4E0), to(#FFFFFF));
+      background: -o-linear-gradient(left, #FFF4E0, #FFFFFF);
+      background: linear-gradient(to right, #FFF4E0, #FFFFFF);
+}
+.main .advantageItem.data-v-02818373:nth-child(2n) {
+      background: -webkit-gradient(linear, left top, right top, from(#E0F0FF), to(#FFFFFF));
+      background: -o-linear-gradient(left, #E0F0FF, #FFFFFF);
+      background: linear-gradient(to right, #E0F0FF, #FFFFFF);
+}
+.main .advantageItem.data-v-02818373:nth-child(3n) {
+      background: -webkit-gradient(linear, left top, right top, from(#FFEBFA), to(#FFFFFF));
+      background: -o-linear-gradient(left, #FFEBFA, #FFFFFF);
+      background: linear-gradient(to right, #FFEBFA, #FFFFFF);
+}
+.main .advantageItem .adTitle.data-v-02818373 {
+      padding: 0 20rpx;
+      font-size: 32rpx;
+      font-weight: bold;
+      color: #6E6E81;
+      width: 200rpx;
+      text-align: center;
+      line-height: 44rpx;
+}
+.main .advantageItem .adContent.data-v-02818373 {
+      font-weight: 400;
+      color: #999999;
+      line-height: 33rpx;
+}
+/*加盟内容样式*/
+

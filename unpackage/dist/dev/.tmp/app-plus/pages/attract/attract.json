@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "招商",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge"
+  }
+}

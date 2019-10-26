@@ -1,0 +1,105 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+      {
+      	"path": "pages/index/setup",
+      	"style": {
+      		"navigationBarTitleText": "我的",
+      		"app-plus": {
+      		  "titleNView": false
+      		}
+      	}
+      },
+      {
+      "path" : "pages/me/editInfo/editInfo",
+      "style" : {
+        "navigationBarTitleText":"编辑资料"
+        }
+      },
+      {
+      	"path": "pages/index/index",
+      	"style": {
+      		"navigationBarTitleText": "首页",
+      		"app-plus": {
+      		  "titleNView": false
+      		}
+      	}
+      },
+    {
+			"path": "pages/attract/attract",
+			"style": {
+				"navigationBarTitleText": "招商",
+        "app-plus": {
+          "titleNView": false
+        }
+			}
+		},{
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "资讯",
+        "app-plus":{
+          "titleNView":false
+        }
+			}
+		},{
+            "path" : "pages/message/msgDetails/msgDetails",
+            "style" : {
+              "navigationBarTitleText":"资讯详情",
+              "app-plus":{
+                "titleNView":false
+              }
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "厂房在线",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+		  "animationType": "fade-in",
+		  "animationDuration": 200
+		}
+	},
+	"tabBar": {
+	  "color": "#DFC7C9",
+	  "selectedColor": "#B91B12",
+	  "borderStyle": "black",
+	  "backgroundColor": "#ffffff",
+	  "list": [{
+	      "pagePath": "pages/index/index",
+	      "iconPath": "static/images/2019cfsj_21.png",
+	      "selectedIconPath": "static/images/2019cfsj_69.png",
+	      "text": "首页"
+	    },
+	    {
+	      "pagePath": "pages/attract/attract",
+	      "iconPath": "static/images/2019cfsj_23.png",
+	      "selectedIconPath": "static/images/2019cfsj_71.png",
+	      "text": "招商"
+	    },
+	    {
+	      "pagePath": "pages/issue/issue",
+	      "iconPath": "static/images/2019cfsj_25.png",
+	      "selectedIconPath": "static/images/2019cfsj_73.png",
+	      "text": "发布"
+	    },
+	    {
+	      "pagePath": "pages/message/message",
+	      "iconPath": "static/images/2019cfsj_27.png",
+	      "selectedIconPath": "static/images/2019cfsj_75.png",
+	      "text": "资讯"
+	    },
+	    {
+	      "pagePath": "pages/index/setup",
+	      "iconPath": "static/images/2019cfsj_29.png",
+	      "selectedIconPath": "static/images/2019cfsj_77.png",
+	      "text": "我的"
+	    }
+	  ]
+	}
+}
