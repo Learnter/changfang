@@ -35,7 +35,10 @@
 		},{
 			"path": "pages/issue/issue",
 			"style": {
-				"navigationBarTitleText": "发布"
+				"navigationBarTitleText": "发布",
+        "app-plus":{
+          "titleNView":false
+        }
 			}
 		},{
 			"path": "pages/message/message",
@@ -46,12 +49,65 @@
         }
 			}
 		},{
-            "path" : "pages/message/msgDetails/msgDetails",
+          "path" : "pages/message/msgDetails/msgDetails",
+          "style" : {
+            "navigationBarTitleText":"资讯详情",
+            "app-plus":{
+              "titleNView":false
+            }
+          }
+        },{
+            "path" : "pages/me/complaint/complaint",
             "style" : {
-              "navigationBarTitleText":"资讯详情",
+              "navigationBarTitleText":"我要投诉",
               "app-plus":{
                 "titleNView":false
-              }
+              } 
+            }
+        }
+        ,{
+            "path" : "pages/me/service/service",
+            "style" : {
+              "navigationBarTitleText":"客服留言",
+              "app-plus":{
+                "titleNView":false
+              } 
+            }
+        }
+        ,{
+            "path" : "pages/me/myCollect/myCollect",
+            "style" : {
+              "navigationBarTitleText":"我的收藏",
+              "app-plus":{
+                "titleNView":false
+              } 
+            }
+        }
+        ,{
+            "path" : "pages/issue/house/house",
+            "style" : {
+              "navigationBarTitleText":"发布找店",
+              "app-plus":{
+                "titleNView":false
+              } 
+            }
+        }
+        ,{
+            "path" : "pages/issue/plant/plant",
+            "style" : {
+              "navigationBarTitleText":"发布转租",
+              "app-plus":{
+                "titleNView":false
+              } 
+            }
+        }
+        ,{
+            "path" : "pages/issue/office/office",
+            "style" : {
+              "navigationBarTitleText":"厂房写字楼出租",
+              "app-plus":{
+                "titleNView":false
+              } 
             }
         }
     ],

@@ -134,7 +134,7 @@ page {
 }
 .jzhotletggui {
 		line-height: 30rpx;
-		font-size: 20rpx;
+		font-size: 24rpx;
 		color: #999999;
 }
 .jzhochptBox {

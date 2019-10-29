@@ -17,6 +17,8 @@
 	@import './common/uni.css';
 	page {
 		background: #FAFAFA;
+    width:100%;
+    height:100%;
 		min-height:100%;
 		font-size: 28upx;
 		line-height: 1.8;
@@ -42,5 +44,6 @@
   image{
     width:100%;
     height:100%;
+    will-change: transform
   }
 </style>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "客服留言",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon/uni-icon"
+  }
+}

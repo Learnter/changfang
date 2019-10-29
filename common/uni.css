@@ -37,6 +37,12 @@ form {
 .uni-center{
 	text-align:center;
 }
+
+.uni-column-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
 .uni-inline-item{
 	display: flex;
 	flex-direction: row;
@@ -138,6 +144,8 @@ form {
 }
 .uni-btn-v button{margin:20upx 0;}
 
+
+
 /* 表单 */
 .uni-form-item{
 	display:flex;
@@ -186,6 +194,8 @@ radio-group label, checkbox-group label{
 	text-align:center;
 	padding-bottom:30upx;
 }
+
+
 /*数字角标*/
 .uni-badge,
 .uni-badge-default {

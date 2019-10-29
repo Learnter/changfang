@@ -77,14 +77,14 @@
     </view>
     
 		<view class="eyinlinkoneBox">
-			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
+			<navigator url="/pages/me/myCollect/myCollect" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_50.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">我的收藏</view>
 				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
 			</navigator>
-			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
+			<navigator url="/pages/me/service/service" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_51.png" mode=""></image>
 				</view>
@@ -98,7 +98,7 @@
 				<view class="eylinkttxt fx1">我的资料</view>
 				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
 			</navigator>
-			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
+			<navigator url="/pages/me/complaint/complaint" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_53.png" mode=""></image>
 				</view>

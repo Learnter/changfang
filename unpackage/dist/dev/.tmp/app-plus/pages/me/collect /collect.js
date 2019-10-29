@@ -1,0 +1,1 @@
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/me/collect /collect"],[],[[115,"common/runtime","common/vendor"]]]);

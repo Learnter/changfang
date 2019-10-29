@@ -66,11 +66,9 @@
     <uni-popup ref="popup" :type="type">
       <view class="">
         <view class="release">
-          <text :class="show?'active':''">发布</text>
+           <view class="sendBtn" :class="show?'active':''">发送</view>
         </view>
-        <view class="areaBox">
-           <textarea @input="changeText" class="areaInput" value="" placeholder="我来说两句..."  placeholder-style="color:#999999"/>
-        </view>
+        <textarea @input="changeText" class="areaInput" value="" placeholder="我来说两句..."/>
       </view>
     </uni-popup>
 	</view>
@@ -106,7 +104,7 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   
   page,.content{
     width:100%;
@@ -249,25 +247,33 @@
  }
  
  .release{
-   text-align:right;
-   color:#999999;
-   font-size:30rpx;
+  display:flex;
+  justify-content:flex-end;
  }
  
- .areaBox{
-   width:100%;
-   height:160rpx;
+ .areaInput{
+    box-sizing:border-box;
+    width:100%;
+    height:160rpx;
+    background:#F0F0F0;
+    padding:10rpx;
+    margin-top:16rpx;
+    font-size:26rpx;
+    color:#999999;
+ }
+ 
+ .sendBtn{
+   font-size:26rpx;
    background:#F0F0F0;
-   padding:10rpx;
-   margin-top:16rpx;
-   .areaInput{
-     width:100%;
-     height:100%;
-     font-size:26rpx;
-   }
+   width:120rpx;
+   text-align:center;
+   border-radius:30rpx;
+   transition: all 1s linear;
  }
  
  .active{
-   color:#007AFF;
+   background:#B91B12;
+   color:#FFFFFF;
+   transition: background-color 1s linear,color 0.5s linear;
  }
 </style>

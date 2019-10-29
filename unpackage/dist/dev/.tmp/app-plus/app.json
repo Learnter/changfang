@@ -4,8 +4,12 @@
     "pages/me/editInfo/editInfo",
     "pages/index/index",
     "pages/attract/attract",
-    "pages/index/issue",
-    "pages/index/message"
+    "pages/issue/issue",
+    "pages/message/message",
+    "pages/message/msgDetails/msgDetails",
+    "pages/me/complaint/complaint",
+    "pages/me/service/service",
+    "pages/me/myCollect/myCollect"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -34,13 +38,13 @@
         "text": "招商"
       },
       {
-        "pagePath": "pages/index/issue",
+        "pagePath": "pages/issue/issue",
         "iconPath": "static/images/2019cfsj_25.png",
         "selectedIconPath": "static/images/2019cfsj_73.png",
         "text": "发布"
       },
       {
-        "pagePath": "pages/index/message",
+        "pagePath": "pages/message/message",
         "iconPath": "static/images/2019cfsj_27.png",
         "selectedIconPath": "static/images/2019cfsj_75.png",
         "text": "资讯"
