@@ -10,6 +10,7 @@ view{
 	font-size:28upx;
 	line-height:1.8;
   letter-spacing:4rpx;
+  color:#000000;
 }
 progress, checkbox-group{
 	width: 100%;
@@ -24,6 +25,15 @@ form {
 .uni-flex-item {
 	flex: 1;
 }
+
+.uni-flex-between{
+  justify-content:space-between;
+}
+
+.uni-row-wrap{
+  flex-wrap:wrap;
+}
+
 .uni-row {
 	flex-direction: row;
 }

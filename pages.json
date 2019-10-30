@@ -1,6 +1,24 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
       {
+          "path" : "pages/index/houseDetails/houseDetails",
+          "style" : {
+            "navigationBarTitleText":"详情",
+            "app-plus":{
+              "titleNView":false
+            } 
+          }
+      },
+      {
+          "path" : "pages/index/officDetails/officDetails",
+          "style" : {
+             "navigationBarTitleText":"写字楼详情",
+             "app-plus":{
+               "titleNView":false
+             } 
+          }
+      },
+      {
       	"path": "pages/index/setup",
       	"style": {
       		"navigationBarTitleText": "我的",

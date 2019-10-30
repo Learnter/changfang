@@ -20,9 +20,9 @@
     width:100%;
     height:100%;
 		min-height:100%;
-		font-size: 28upx;
-		line-height: 1.8;
-		font-family: 'MicrosoftYaHei';
+		font-size:28upx;
+		line-height:1.8;
+		font-family:'MicrosoftYaHei';
 	}
 	
 	.fx1 {
@@ -36,7 +36,7 @@
 		clear: both;
 	}
 	
-	* {
+	*{
 		box-sizing: content-box;
 		box-sizing: border-box;
 	}
@@ -46,4 +46,5 @@
     height:100%;
     will-change: transform
   }
+    
 </style>
