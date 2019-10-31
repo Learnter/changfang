@@ -1,6 +1,42 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
       {
+          "path" : "pages/me/broker/broker",
+          "style" : {
+            "navigationBarTitleText":"经纪人",
+            "app-plus":{
+              "titleNView":false
+            } 
+          }
+      },
+      {
+      	"path": "pages/index/setup",
+      	"style": {
+      		"navigationBarTitleText": "我的",
+      		"app-plus": {
+      		  "titleNView": false
+      		}
+      	}
+      },
+      {
+          "path" : "pages/me/amount/amount",
+          "style" : {
+            "navigationBarTitleText":"账户余额",
+            "app-plus":{
+               "titleNView":false
+            }
+          }
+      },
+      {
+          "path" : "pages/index/hotRent/hotRent",
+          "style" : {
+              "navigationBarTitleText":"热门出租",
+              "app-plus":{
+                "titleNView":false
+              } 
+          }
+      },
+      {
           "path" : "pages/index/houseDetails/houseDetails",
           "style" : {
             "navigationBarTitleText":"详情",
@@ -17,15 +53,6 @@
                "titleNView":false
              } 
           }
-      },
-      {
-      	"path": "pages/index/setup",
-      	"style": {
-      		"navigationBarTitleText": "我的",
-      		"app-plus": {
-      		  "titleNView": false
-      		}
-      	}
       },
       {
       "path" : "pages/me/editInfo/editInfo",
@@ -128,6 +155,17 @@
               } 
             }
         }
+        
+        ,{
+            "path" : "pages/me/help/help",
+            "style" : {
+              "navigationBarTitleText":"帮助中心",
+              "app-plus":{
+                "titleNView":false
+              } 
+            }
+        }
+        
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

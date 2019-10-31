@@ -112,7 +112,7 @@
 				<view class="eylinkttxt fx1">我要提意见</view>
 				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
 			</navigator>
-			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
+			<navigator url="/pages/me/help/help" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_55.png" mode=""></image>
 				</view>

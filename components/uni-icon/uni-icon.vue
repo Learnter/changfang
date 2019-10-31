@@ -1,5 +1,5 @@
 <template>
-	<view :class="'uni-icon-' + type" :style="{ color: color, 'font-size': size + 'px' }" class="uni-icon" @click="_onClick" />
+	<view :class="'uni-icon-' + type" :style="{ color: color, 'font-size': size + 'rpx' }" class="uni-icon" @click="_onClick" />
 </template>
 
 <script>
@@ -16,7 +16,7 @@
 			},
 			size: {
 				type: [Number, String],
-				default: 16
+				default: 32
 			}
 		},
 		methods: {

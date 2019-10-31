@@ -20,9 +20,9 @@
     width:100%;
     height:100%;
 		min-height:100%;
-		font-size:28upx;
+		/* font-size:28upx; */
 		line-height:1.8;
-		font-family:'MicrosoftYaHei';
+		font-family: 'MicrosoftYaHei';
 	}
 	
 	.fx1 {

@@ -9,7 +9,6 @@
 view{
 	font-size:28upx;
 	line-height:1.8;
-  letter-spacing:4rpx;
   color:#000000;
 }
 progress, checkbox-group{
@@ -24,6 +23,10 @@ form {
 }
 .uni-flex-item {
 	flex: 1;
+}
+
+.uni-flex-center{
+  justify-content:center;
 }
 
 .uni-flex-between{
@@ -199,8 +202,8 @@ radio-group label, checkbox-group label{
 
 /* loadmore */
 .uni-loadmore{
-	height:80upx;
-	line-height:80upx;
+	height:60upx;
+	line-height:60upx;
 	text-align:center;
 	padding-bottom:30upx;
 }
