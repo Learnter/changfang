@@ -2,34 +2,19 @@
 	<view class="content">
 		<view class="eyitopBox" >
 			<view class="eyitopbgg"></view>
-			<view class="eyitopCont">
-				<!-- <view class="eyitopqdao uni-flex">
-					<image src="../../static/images/2019cfsj_49.png" mode=""></image>
-					<view class="fx1 eyitopqdaotx">签到</view>
-				</view>
-				<view class="uni-flex">
-					<view class="eyitotximg">
-						<image src="../../static/images/2019cfsj_11.png" mode=""></image>
-					</view>
-					<view class="eyitodata fx1">
-						<view class="eyitodatatx">
-							<text class="text_1">手机认证：182****2345</text>
-							<text class="text_2">[ 已认证 ]</text>
-						</view>
-						<navigator class="eyitodatalink" url="/pages/me/editInfo/editInfo" hover-class="none">编辑资料</navigator>
-					</view>
-				</view -->
-        <image src="/static/images/2019cfsj_66.png" ></image>
-			</view>
+			<!-- <view class="eyitopCont"> -->
+        <text class="iconfont iconkefu-copy"></text>
+			<!-- </view> -->
 		</view>
 		<view class="eyinlinkoneBox">
       <view class="eyinlinkoneHe">
          <view class="eyinlinkonetop">
            <view class="uni-inline-item textColor">
              <text>请设定昵称</text>
-             <navigator class="editImg" url="/pages/me/editInfo/editInfo" hover-class="none">
-               <image src="/static/images/2019cfsj_65.png" mode=""></image>
+             <navigator url="/pages/me/editInfo/editInfo" hover-class="none">
+               <text class="iconfont iconedit-hover"></text>
              </navigator>
+           
            </view>
            <view class="textColor">
              ID:-----
@@ -82,42 +67,42 @@
 					<image src="../../static/images/2019cfsj_50.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">我的收藏</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 			<navigator url="/pages/me/service/service" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_51.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">客服留言</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_52.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">我的资料</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 			<navigator url="/pages/me/complaint/complaint" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_53.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">我要投诉</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 			<navigator url="#" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_54.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">我要提意见</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 			<navigator url="/pages/me/help/help" class="eylinktwoBox uni-flex" hover-class="none">
 				<view class="eylinktwoimg">
 					<image src="../../static/images/2019cfsj_55.png" mode=""></image>
 				</view>
 				<view class="eylinkttxt fx1">帮助中心</view>
-				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="18"/></view>
+				<view class="eylinkzxia"><uni-icon type="arrowright" color="#888888" size="36"/></view>
 			</navigator>
 		</view>
     
@@ -176,6 +161,19 @@
 
 <style lang="scss" scoped>
   
+  .iconkefu-copy{
+    font-size:80rpx;
+    line-height: 1.2;
+    color:#FFFFFF;
+    z-index:10;
+  }
+  
+  .iconedit-hover{
+    margin-left:16rpx;
+    font-size:40rpx;
+    color:#128A67;
+  }
+  
   page,.content{
     width:100%;
     height:100%;
@@ -186,6 +184,7 @@
 		position:relative;
     display:flex;
     justify-content: flex-end;
+    padding:20rpx;
 	}
   
 	.eyitopbgg {
@@ -313,13 +312,11 @@
      padding-left:200rpx; 
      margin-bottom:20rpx;
      .textColor{
-       font-size:32rpx;
+       font-size:30rpx;
+       line-height:1.3;
        color:#9E9E9E;
      }
-     .editImg{
-       width:40rpx;
-       height:40rpx;
-     }
+     
      .accountlogo{
        position:absolute;
        left:0;
@@ -338,6 +335,7 @@
     position:absolute;
     right:0;
     top:30rpx;
+    height:60rpx;
     padding:10rpx;
     background:#FBDEDC;
     border-radius:40rpx 10rpx 10rpx 40rpx;
@@ -361,9 +359,12 @@
       font-weight:500;
       color:#FFFFFF;
       justify-content:center;
+      letter-spacing:10rpx;
+      line-height:1.5;
       .aciImg{
         width:50rpx;
         height:50rpx;
+        margin-right:16rpx;
       }
       &:nth-child(1){
         width:47%;

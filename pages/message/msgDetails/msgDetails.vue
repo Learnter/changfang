@@ -34,10 +34,10 @@
             <text class="uni-flex-item">热心李先生</text>
             <view class="uni-inline-item">
               <view class="uni-inline-item" style="margin-right:20rpx">
-                <uni-icon type="chat"></uni-icon>36
+                <text class="iconfont iconweibiaoti-"></text>36
               </view>
               <view class="uni-inline-item">
-                <uni-icon type="chat"></uni-icon>10
+                <text class="iconfont icondianzan1"></text>10
               </view>
             </view>
           </view>
@@ -56,10 +56,10 @@
       </view>
       <view class="uni-inline-item">
         <view class="uni-inline-item" style="margin-right:20rpx">
-          <uni-icon type="chat"></uni-icon>&nbsp;&nbsp;评论
+          <text class="iconfont iconweibiaoti-"></text>评论
         </view>
         <view class="uni-inline-item">
-          <uni-icon type="chat"></uni-icon>&nbsp;&nbsp;点赞
+          <text class="iconfont icondianzan1"></text>点赞
         </view>
       </view>
     </view>
@@ -105,6 +105,13 @@
 </script>
 
 <style lang="scss" scoped>
+  
+  .iconweibiaoti-,.icondianzan1{
+    font-size:40rpx;
+    margin-right:5rpx;
+    color:#999999;
+    line-height:30rpx;
+  }
   
   page,.content{
     width:100%;
@@ -187,7 +194,7 @@
  .commentBox{
    padding:0 20rpx;
    background:#FFFFFF;
-   margin-bottom:120rpx;
+   margin-bottom:110rpx;
    .hsTitle{
     color:#333333;
     font-size:30rpx;

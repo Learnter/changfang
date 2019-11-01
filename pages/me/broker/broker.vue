@@ -14,11 +14,11 @@
           <view class="uni-ellipsis">主营商圈：东莞行政中心区数据的技术开发</view>
           <view class="uni-inline-item uni-flex-between">
             <view class="uni-inline-item cardBtn">
-              <uni-icon type="phone-filled" color="#ffffff"></uni-icon>
+              <text class="iconfont icondianhua"></text>
               拨打电话
             </view>
             <view class="uni-inline-item cardBtn">
-              <uni-icon type="chat" color="#ffffff"></uni-icon>
+              <text class="iconfont iconxinxi"></text>
               立即沟通
             </view>
           </view>
@@ -112,6 +112,17 @@
 </script>
 
 <style lang="scss" scoped>
+  
+  .icondianhua{
+    color:#007AFF;
+    margin-right:4rpx;
+  }
+  
+  .iconxinxi{
+    margin-right:4rpx;
+    color:red;
+  }
+  
  .cardBox{
    box-sizing:border-box;
    width:100%;
@@ -127,7 +138,7 @@
      height:100%;
      padding:30rpx 20rpx;
      border-radius:10rpx;
-     box-shadow:0rpx 0rpx 13rpx 0rpx rgba(0, 0, 0, 0.19);
+     box-shadow:0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.5);
    }
  }
  
@@ -150,6 +161,7 @@
      width:60rpx;
      height:35rpx;
      overflow:hidden;
+     margin-left:10rpx;
    }
  }
  
@@ -164,6 +176,7 @@
  .cardBtn{
    padding: 0 16rpx;
    border-radius:30rpx;
+   line-height:1.6;
    color:#FFFFFF;
    &:nth-child(1){
     background:linear-gradient(90deg,rgba(255,108,71,1),rgba(252,61,78,1));

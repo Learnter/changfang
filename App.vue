@@ -15,6 +15,7 @@
 <style>
 	/*每个页面公共css */
 	@import './common/uni.css';
+  @import "./static/iconfont/iconfont.css";
 	page {
 		background: #FAFAFA;
     width:100%;

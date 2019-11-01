@@ -24,7 +24,7 @@
 			<view class="jzhometinputBox">
 				<view class="uni-flex jzhometinpHe">
 					<view class="jzhomedzhi">东莞市</view>
-					<view class="jzhomezxan"><uni-icon type="arrowdown" color="#eeeeee" size="12"/></view>
+					<view class="jzhomezxan"><text class="iconfont icondown"></text></view>
 					<view class="fx1">
 						<navigator url="#" hover-class="none">
 							<view class="uni-flex jzhomessBox">
@@ -94,6 +94,7 @@
 			<view class="jzhotlehx"></view>
 			<view class="jzhotletxx fx1">热门出租</view>
 		</view>
+    
 		<view class="jzscrmczListHe">
 			<scroll-view scroll-x="true" >
 				<navigator url="#" hover-class="none" class="jzscrmczList">
@@ -136,7 +137,10 @@
 		<view class="jzhoertleBox uni-flex">
 			<view class="jzhotlehx"></view>
 			<view class="jzhotletxx fx1">厂房出租</view>
-			<view class="jzhotletggui">换一批&gt;</view>
+			<view class="jzhotletggui uni-inline-item">
+        换一批
+        <text class="iconfont icontiaozhuanqianwangyoujiantouxiangyouxiayibuxianxing"></text>
+      </view>
 		</view>
 		<view class="jzhochptBox clearfix">
 			<navigator url="#" hover-class="none" class="jzhochptlist">				
@@ -228,7 +232,10 @@
 		
 		<view class="jzhoertleBox uni-flex">
 			<view class="jzhotlejjr fx1">经纪人</view>
-			<navigator url="#" class="jzhotletggui" hover-class="none">更多&gt;</navigator>			
+			<navigator url="#" class="jzhotletggui uni-inline-item" hover-class="none">
+        更多
+       <text class="iconfont icontiaozhuanqianwangyoujiantouxiangyouxiayibuxianxing"></text>
+       </navigator>			
 		</view>
 		<view class="jzscrmczListHe">
 			<scroll-view scroll-x="true">
@@ -281,7 +288,10 @@
 		<view class="jzhoertleBox uni-flex">
 			<view class="jzhotlehx"></view>
 			<view class="jzhotletxx fx1">土地出租</view>
-			<navigator url="#" class="jzhotletggui" hover-class="none">更多&gt;</navigator>	
+			<navigator url="#" class="jzhotletggui uni-inline-item" hover-class="none">
+        更多
+        <text class="iconfont icontiaozhuanqianwangyoujiantouxiangyouxiayibuxianxing"></text>
+      </navigator>	
 		</view>
 		<view class="jzhochptBox clearfix">
 			<navigator url="#" hover-class="none" class="jzhochptlist">				
@@ -374,7 +384,10 @@
 		<view class="jzhoertleBox uni-flex">
 			<view class="jzhotlehx"></view>
 			<view class="jzhotletxx fx1">写字楼出租</view>
-			<navigator url="#" class="jzhotletggui" hover-class="none">更多&gt;</navigator>	
+			<navigator url="#" class="jzhotletggui uni-inline-item" hover-class="none">
+        更多
+       <text class="iconfont icontiaozhuanqianwangyoujiantouxiangyouxiayibuxianxing"></text>
+      </navigator>	
 		</view>
 		<view class="jzhochptBox clearfix">
 			<navigator url="#" hover-class="none" class="jzhochptlist">				
@@ -491,5 +504,14 @@
 
 <style>
 	@import url("index.css");
+  .icondown{
+    margin-left:5rpx;
+    color:#F0F0F0;
+  }
+  
+  .icontiaozhuanqianwangyoujiantouxiangyouxiayibuxianxing{
+    margin-left:5rpx;
+  }
+  
 </style>
 1

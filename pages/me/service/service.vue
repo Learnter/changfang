@@ -90,7 +90,7 @@
     
     <!--信息输入框-->
     <view class="inputBox uni-inline-item">
-      <uni-icon type="chat" color="blue" size="25"></uni-icon>
+      <uni-icon type="chat" color="blue" size="50"></uni-icon>
       <view class="inputWord">
          <input @input="inputMethods" class="inputMsg" type="text" value="" placeholder="请输入你想咨询的问题......" />
       </view>

@@ -4,7 +4,7 @@
 		  <view class="accountInfo">
 		    <view class="uni-inline-item uni-flex-between accountText">
 		      <text>账户余额（元）</text>
-          <uni-icon type="arrowright"></uni-icon>
+          <text class="iconfont iconxunwen"></text>
 		    </view>
         <view class="accountNum">100.00</view>
         <view class="uni-inline-item uni-flex-between">
@@ -12,12 +12,11 @@
            <text>中国银行</text>
            <view class="splitline"></view>
            <text>6254 **** **** 2536</text>
-           <view class="editBank">
-             <image src="/static/images/2019cfsj_102.png"></image>
-           </view>
+           <text class="iconfont iconbinaji"></text>
           </view>
           <view class="uni-inline-item withdrawBtn">
-            <view class="">提现</view>
+            <text class="iconfont icontixian"></text>
+            <text class="">提现</text>
           </view>
         </view>
 		  </view>
@@ -29,7 +28,7 @@
         <view class="itemTime">2019-08-23 20:05:02</view>
         <view class="itemMoney">300</view>
       </view>
-      <view class="example-body">
+      <view class="example-body" v-show="loadmore">
       	<uni-load-more :status="status" :content-text="contentText"/>
       </view>
     </scroll-view>
@@ -42,6 +41,7 @@
 	export default {
 		data() {
 			return {
+         loadmore:false,
 				 status: 'more',
 					contentText: {
 						contentdown: '查看更多',
@@ -52,7 +52,8 @@
 		},
     methods:{
       loadMore(e){
-        this.status = "loading";
+        this.loadmore = true;
+        this.status = "more";
       }
     },
     components:{
@@ -64,6 +65,20 @@
 
 <style lang="scss" scoped>
   
+  .iconxunwen{
+    font-size:50rpx;
+  }
+   
+  .iconbinaji{
+    font-size:40rpx;
+    margin-left:20rpx;
+  }
+  
+  .icontixian{
+    color:#FE2549;
+    margin-right:4rpx;
+  }
+  
   .content{
     width:100%;
     height:100%;
@@ -74,12 +89,12 @@
     width:100%;
     height:300rpx;
     background:#FFFFFF;
-    padding:20rpx 16rpx 10rpx;
+    padding:20rpx 16rpx 16rpx;
     .accountInfo{
       box-sizing:border-box;
       width:100%;
       height:100%;
-      background-image:url('~@//static/images/2019cfsj_101.png');
+      background-image:url('~@/static/images/2019cfsj_101.png');
       background-repeat:no-repeat;
       background-size:cover;
       box-shadow:0px 3px 5px 0px rgba(253,73,76,0.38);
@@ -91,6 +106,7 @@
       .accountText{
         color:#FFFFFF;
         font-size:30rpx;
+        line-height: 1.3;
       }
       .accountNum{
         font-size:60rpx;
@@ -106,6 +122,8 @@
         background:#FFFFFF;
         padding:0 16rpx;
         border-radius:20rpx;
+        line-height: 1.5;
+        color:#FE2549;
       }
       .withdrawImg{
         width:30rpx;
@@ -119,7 +137,7 @@
     width:5rpx;
     height:30rpx;
     background:#830017;
-    margin-right:20rpx;
+    margin: 0 20rpx;
   }
   
   .editBank{
@@ -156,6 +174,16 @@
         font-weight:bold;
       }
     }
+  }
+  
+  
+  .example-body{
+    position: fixed;
+    left:0;
+    bottom:0;
+    right:0;
+    background:#FAFAFA;
+    transition: background-color 1s ease-in;
   }
   
   

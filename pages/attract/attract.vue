@@ -1,20 +1,43 @@
 <template>
   <view class="content">
     <view class="imgBox">
-      <image src="/static/images/2019cfsj_1.png"></image>
+      <image src="/static/images/2019cfsj_88.png"></image>
     </view>
 
     <view class="pathBox">
       <view class="pbTitle">加盟流程</view>
-      <view class="flowChart">
-        <image src="/static/images/2019cfsj_1.png"></image>
+      <view class="stepBox uni-inline-item uni-flex-between">
+        <view class="stepItem uni-column-item">
+          <view class="stepImg">
+            <image src="/static/images/2019cfsj_89.png" mode=""></image>
+          </view>
+          <view class="stepText">直接致电加盟服务热线</view>
+        </view>
+        <view class="stepItem uni-column-item">
+          <view class="stepImg">
+            <image src="/static/images/2019cfsj_90.png" mode=""></image>
+          </view>
+          <view class="stepText">电联做初步沟通</view>
+        </view>
+        <view class="stepItem uni-column-item">
+          <view class="stepImg">
+            <image src="/static/images/2019cfsj_91.png" mode=""></image>
+          </view>
+          <view class="stepText">见面与专家面谈细节</view>
+        </view>
+        <view class="stepItem uni-column-item">
+          <view class="stepImg">
+            <image src="/static/images/2019cfsj_92.png" mode=""></image>
+          </view>
+          <view class="stepText">正式签约盟合作</view>
+        </view>
       </view>
     </view>
 
     <view class="main">
       <view class="introduce uni-inline-item">
         <view class="introImg">
-          <image src="/static/images/2019cfsj_1.png"></image>
+          <image src="/static/images/2019cfsj_87.png"></image>
         </view>
         <view class="introWord">
           <view class="introTitle">
@@ -29,30 +52,30 @@
       <view class="pbTitle">加盟条件</view>
       <view class="condition uni-inline-item">
         <view class="bedge">1</view>
-        <text>具有合法资格的法人或自然人。</text>
+        <text class="uni-flex-item uni-ellipsis">具有合法资格的法人或自然人。</text>
       </view>
       <view class="condition uni-inline-item">
         <view class="bedge">2</view>
-        <text>具有管理协调能力、有渠道经营经验。</text>
+        <text class="uni-flex-item uni-ellipsis">具有管理协调能力、有渠道经营经验。</text>
       </view>
       <view class="condition uni-inline-item">
         <view class="bedge">3</view>
-        <text>具有强烈的事业心、并有追求成功的欲望。</text>
+        <text class="uni-flex-item uni-ellipsis">具有强烈的事业心、并有追求成功的欲望。</text>
       </view>
       <view class="condition uni-inline-item">
         <view class="bedge">4</view>
-        <text>具有一定的经济实力及长远的投资眼光。</text>
+        <text class="uni-flex-item uni-ellipsis">具有一定的经济实力及长远的投资眼光。</text>
       </view>
       <view class="condition uni-inline-item">
         <view class="bedge">5</view>
-        <text>能正确看待和承担风险意识。</text>
+        <text class="uni-flex-item uni-ellipsis">能正确看待和承担风险意识。</text>
       </view>
       <view class="condition uni-inline-item">
         <view class="bedge">6</view>
-        <text>想彻底改变命运的人。</text>
+        <text class="uni-flex-item uni-ellipsis">想彻底改变命运的人。</text>
       </view>
       <view class="advantagebg">
-        <image src="/static/images/2019cfsj_1.png"></image>
+        <image src="/static/images/2019cfsj_93.png"></image>
       </view>
       <view class="advantageItem uni-inline-item">
         <view class="adTitle">大数据</view>
@@ -115,8 +138,8 @@
   }
 
   .imgBox {
-    height: 268rpx;
-    margin: 10rpx 20rpx 20rpx;
+    height: 250rpx;
+    margin: 10rpx;
     border-radius: 10rpx;
     overflow: hidden;
   }
@@ -125,8 +148,11 @@
     font-size: 36rpx;
     font-weight: 700;
     line-height: 44rpx;
-    padding-left: 30rpx;
+    padding: 20rpx 0 20rpx 30rpx;
     position: relative;
+    letter-spacing: 4rpx;
+    color: #333;
+    text-shadow: 0px -3px 4px #F59651, 0px -2px 3px #F59651, 0px -1.5px 2px #FB6229, 0px -1px 1.5px #FB6229, 0px -0.5px 1px #FB6229;
 
     &::after {
       content: '';
@@ -137,7 +163,8 @@
       margin: auto;
       width: 10rpx;
       height: 40rpx;
-      background: #FF0018;
+      // background: #FF0018;
+      background: linear-gradient(45deg, yellow, blue, red);
       border-top-right-radius: 10rpx;
       border-bottom-right-radius: 10rpx;
     }
@@ -150,11 +177,55 @@
     margin-bottom: 10rpx;
 
     .flowChart {
-      margin: 30rpx 0 40rpx 0;
+      margin: 10rpx 0;
       height: 200rpx;
       box-sizing: content-box;
       border-radius: 10rpx;
       overflow: hidden;
+    }
+
+    .stepBox {
+      padding-bottom: 16rpx;
+      overflow:hidden;
+      .stepItem {
+        box-sizing: border-box;
+        width: 24%;
+        height: 200rpx;
+        padding: 20rpx;
+        border-radius: 10rpx;
+
+        &:nth-child(1) {
+          background: #FFF4E0
+        }
+
+        &:nth-child(2) {
+          background: #E0FBFF
+        }
+
+        &:nth-child(3) {
+          background: #FFE0EA
+        }
+
+        &:nth-child(4) {
+          background: #F1FFE0
+        }
+
+        .stepImg {
+          width: 66rpx;
+          height: 66rpx;
+          margin-bottom:16rpx;
+        }
+        .stepText{
+          color:#5C5C5C;
+          font-size:24rpx;
+          line-height:1.5;
+          overflow: hidden;
+          display: -webkit-box;
+          text-overflow: ellipsis;
+          -webkit-line-clamp:2;
+          -webkit-box-orient:vertical;
+        }
+      }
     }
   }
 
@@ -177,19 +248,26 @@
       }
 
       .introWord {
-        padding: 10rpx 20rpx 10rpx 20rpx;
+        align-self: stretch;
         overflow: hidden;
+        padding: 0 20rpx;
 
         .introTitle {
-          font-size: 30rpx;
+          font-size: 32rpx;
+          line-height: 30rpx;
           font-weight: bold;
-          line-height: 40rpx;
+          padding: 16rpx 0;
         }
 
         .introText {
-          font-size: 28rpx;
-          line-height: 30rpx;
+          font-size: 24rpx;
+          line-height: 34rpx;
           color: #999999;
+          overflow: hidden;
+          display: -webkit-box;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
         }
       }
     }
@@ -204,10 +282,11 @@
       .bedge {
         width: 32rpx;
         height: 32rpx;
+        line-height: 32rpx;
         font-size: 24rpx;
+        margin-right: 20rpx;
         color: #FFFFFF;
         text-align: center;
-        line-height: 32rpx;
         background: #FF6A6A;
         border-radius: 50%;
       }
@@ -223,26 +302,28 @@
     .advantageItem {
       margin-top: 20rpx;
       height: 160rpx;
-      overflow:hidden;
-      &:nth-child(1n){
+      overflow: hidden;
+
+      &:nth-child(1n) {
         background: linear-gradient(to right, #FFF4E0, #FFFFFF);
       }
 
-      &:nth-child(2n){
-       background: linear-gradient(to right, #E0F0FF, #FFFFFF);
+      &:nth-child(2n) {
+        background: linear-gradient(to right, #E0F0FF, #FFFFFF);
       }
-      
-      &:nth-child(3n){
+
+      &:nth-child(3n) {
         background: linear-gradient(to right, #FFEBFA, #FFFFFF);
       }
+
       .adTitle {
         padding: 0 20rpx;
         font-size: 32rpx;
         font-weight: bold;
         color: #6E6E81;
-        width:200rpx;
+        width: 200rpx;
         text-align: center;
-        line-height:44rpx;
+        line-height: 44rpx;
       }
 
       .adContent {

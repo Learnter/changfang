@@ -2,7 +2,7 @@
   <view>
     <view class="searchBox uni-inline-item">
       <view class="location uni-inline-item">
-        <view class="text2">东莞</view><uni-icon type="arrowdown" color="#999999" size="36"></uni-icon></view>
+        <view class="text2">东莞</view><text class="iconfont icondown"></text></view>
       <view class="searchInpute uni-inline-item">
        <uni-icon  type="search" color="#999999" size="40"></uni-icon> 
        <text class="uni-ellipsis uni-flex-item">搜索你想要的店铺位置或者店铺</text>
@@ -11,13 +11,13 @@
     
     <view class="filterBox uni-inline-item">
       <view class="uni-flex-item uni-inline-item uni-flex-center">
-        <view class="text2">区域</view><uni-icon type="arrowdown" color="#999999" size="36"></uni-icon>
+        <view class="text2">区域<text class="iconfont icondown-fill-xs"></text></view>
       </view>
       <view class="uni-flex-item uni-inline-item uni-flex-center">
-         <view class="text2">面积</view><uni-icon type="arrowdown" color="#999999" size="36"></uni-icon>
+         <view class="text2">面积<text class="iconfont icondown-fill-xs"></text></view>
       </view>
       <view class="uni-flex-item uni-inline-item uni-flex-center">
-        <view class="text2">租金</view><uni-icon type="arrowdown" color="#999999" size="36"></uni-icon>
+        <view class="text2">租金<text class="iconfont icondown-fill-xs"></text></view>
       </view>
     </view>
     
@@ -65,6 +65,17 @@
 
 <style lang="scss" scoped>
   
+  .icondown{
+    margin-left:5rpx;
+    color:#999999;
+  }
+  
+  .icondown-fill-xs{
+    margin-left:10rpx;
+    color:#333333;
+    font-weight: 400;
+  }
+  
    /*搜索框样式*/
    .searchBox{
      margin:16rpx;
@@ -109,7 +120,7 @@
     
     /*列表框样式*/
     .listBox{
-      padding:16rpx 10rpx 0;
+      padding:16rpx 16rpx 0;
       display:flex;
       flex-wrap:wrap;
       .listItem{
@@ -146,6 +157,7 @@
       overflow:hidden;
       white-space:nowrap;
       text-overflow:ellipsis;
+      font-weight:bold;
     }
     
     .text2{

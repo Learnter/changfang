@@ -79,7 +79,7 @@
       
       <view class="uni-inline-item rowItem">
         <view class="leftTitle" style="color:#B91B12;font-weight:400">添加地图定位</view>
-        <uni-icon type="location-filled" color="#B91B12" size="25"></uni-icon>
+        <uni-icon type="location-filled" color="#B91B12" size="50"></uni-icon>
       </view>
      
       
@@ -186,6 +186,7 @@
   
   .bottomBox{
    padding:50rpx 10rpx;
+   letter-spacing:10rpx;
   }
   
   .upNotice{

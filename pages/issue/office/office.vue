@@ -166,6 +166,7 @@
   
   .bottomBox{
    padding:50rpx 10rpx;
+   letter-spacing: 10rpx;
   }
   
   .upNotice{
